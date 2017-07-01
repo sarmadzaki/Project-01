@@ -226,7 +226,7 @@ figure img {
     font-size:1.2em;
     font-weight: 700;
     margin-right: 10px;
-    color: #ee2b63;
+    color: #25169D;
 }
 .price .actual-price {
     color: #bababa;
@@ -419,7 +419,7 @@ figure img {
 	border-color:#333;
 }
 .shop-sidebar .widget-title:after{
-	background:#ee2b63;
+	background:#25169D;
 	height:1px;
 	width:25px;
 	position:absolute;
@@ -431,13 +431,13 @@ figure img {
 	color:#898989;
 }
 .shop-sidebar .widget li a:hover{
-	color:#ee2b63;
+	color:#25169D;
 	text-decoration: none;
     padding-left: 5px;
 }
 .shop-sidebar .widget.widget_size li a:hover {
     color: #fff;
-	background-color:#ee2b63;
+	background-color:#25169D;
     text-decoration: none;
     padding-left: 0px;
 }
@@ -504,7 +504,7 @@ figure img {
 }
 .shop-pages .shop-links-widget .panel-title a:hover {
     text-decoration: none;
-    color: #ee2b63;
+    color: #25169D;
 }
 .shop-pages .shop-links-widget .panel-collapse{
 	background-color: #f5f5f5;
@@ -590,7 +590,7 @@ figure img {
 }
 .pagination-wrap li a:hover,.pagination-wrap li a:focus{
 	border-color:#ccc;
-	background-color: #ee2b63;
+	background-color: #25169D;
     color: #fff;
     text-decoration: none;
 }
@@ -600,7 +600,7 @@ figure img {
 }
 .pagination-wrap li.active a{
 	border-color:#ccc;
-	background-color: #ee2b63;
+	background-color: #25169D;
     color: #fff;
     text-decoration: none;
 }
@@ -829,7 +829,7 @@ table.table.cart {
 }
 .cart tr td.cart-product-name a:hover{
 	text-decoration:none;
-	color:#ee2b63;
+	color:#25169D;
 }
 .dart-form-control {
     display: block;
@@ -943,8 +943,8 @@ table.table.cart {
 }
 .rd-stroke-btn:hover, .rd-stroke-btn:focus {
     color: #fff;
-    background: #ee2b63;
-	border-color: #ee2b63;
+    background: #25169D;
+	border-color: #25169D;
 }
 .btn, .btn:hover {
     -webkit-transition: all 0.35s;
@@ -957,7 +957,7 @@ table.table.cart {
 }
 .normal-btn {
     color: #ffffff;
-    background: #ee2b63;
+    background: #25169D;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;

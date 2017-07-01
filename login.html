@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from www.multipurposethemes.com/html-templates/cosmeticagency/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2017 13:17:50 GMT -->
+<!-- Mirrored from www.multipurposethemes.com/html-templates/cosmeticagency/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2017 13:17:50 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,7 +78,7 @@
 					</div>
 					<ul class="register">
 						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
+						<li><a href="#">Register</a></li>
 					</ul>
 				</div>
 			</div>
@@ -103,7 +103,39 @@
     <div class="container-fluid">  
         
         <!-- Start Atribute Navigation -->
-      
+        <div class="attr-nav">
+            <ul>
+               	<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                        <i class="fa fa-shopping-bag"></i>
+                        <span class="badge">3</span>
+                    </a>
+                    <ul class="dropdown-menu cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/product/product-6.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>2x - <span class="price">$99.99</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/product/product-4.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>2x - <span class="price">$99.99</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/product/product-9.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>2x - <span class="price">$99.99</span></p>
+                        </li>
+                        <li class="total">
+                            <span class="pull-right"><strong>Total</strong>: $0.00</span>
+                            <a href="cart.html" class="btn btn-default btn-cart">Cart</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+            </ul>
+        </div>        
         <!-- End Atribute Navigation -->
 
 
@@ -120,8 +152,8 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
                 <li><a href="index.html">Home</a></li>  
-               <!--  <li class="dropdown megamenu-fw">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+             <!--    <li class="dropdown megamenu-fw">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product</a>
                     <ul class="dropdown-menu megamenu-content" role="menu">
                         <li>
                             <div class="row">
@@ -172,21 +204,21 @@
                             </div>
                         </li>
                     </ul>
-                </li>-->
-             <!--    <li class="dropdown">
+                </li> -->
+
+               <!--  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
                     <ul class="dropdown-menu">
                         <li><a href="blog.html">Blog Gird</a></li>
                         <li><a href="blog-single.html">Blog Single</a></li>
                     </ul>
-                </li>
- -->
+                </li> -->
                 <li><a href="about.html">About Us</a></li>
 
                 <li><a href="details.html">Product Portfolio</a></li>
-                <li><a href="details.html">Suppliers Download</a></li>
+                <li><a href="contact.html">Suppliers Download</a></li>
 
-                <li class="active"><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div> 
@@ -214,77 +246,60 @@
     
 	<div class="page_title_ctn"> 
 		<div class="container-fluid">
-          <h2>Contact</h2>
+          <h2>Login</h2>
           
           	<ol class="breadcrumb">
               <li><a href="#">Home</a></li>
-              <li class="active"><span>Contact</span></li>
+              <li class="active"><span>Login</span></li>
             </ol>
            
     	</div>
     </div>  
     
-    <!-- Contact Section -->
-    
-    <section class="contactus-one" id="contactus"><!-- Section id-->
-        <div class="container">
-            <div class="row">
+    <!--Shoping Cart-->
+    <section class="dart-pt-30">
+    	<div class="container">
+        	<div class="row">
             	<div class="col-md-6 col-sm-6">
-                <div class="dart-headingstyle-one dart-mb-20">  <!--Style 1-->
-                        <h2 class="dart-heading">Contact US</h2>
-                        </div>
-                    <div class=" row contact-info">
-                            <div class="col-md-12 col-sm-12">
-                                <p class="addre"><i class="fa fa-map-marker"></i>Karachi, Pakistan</p>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <p class="phone-call"><i class="fa fa-phone"></i> <a href="tel:+10484579845">021-32427-469</a></p>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <p class="mail-id"><i class="fa fa-envelope"></i>hamza@hamzawaqar.com</p>
-                            </div>
-                        </div>
+   				
+                <div id="rd_login_form" style="display: block;">
+                    <h3>Existing customer.</h3>
+                    
+                    <form class="dart-pt-20">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Username or email <span class="required">*</span> </label>
+                        <input type="email" class="dart-form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password <span class="required">*</span></label>
+                        <input type="password" class="dart-form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Remember me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn normal-btn dart-btn-xs">LOGIN NOW</button>
+                    </form>
+                    
+				</div>
+    		</div>
+            
+            <div class="col-md-6 col-sm-6">
+            	<div class="rd_guest_checkout">
+                    <h3>New customer.</h3>
+                    <a class="btn normal-btn dart-btn-sm rd_guest_acc">Checkout as guest.</a><br>
+                    <a class="btn rd-stroke-btn border_2px dart-btn-sm rd_guest_acc">Create an account.</a>
                 </div>
-            	<div class=" col-md-5 col-sm-6">
-                	<div class="contact-block">
-                        <div class="dart-headingstyle-one dart-mb-20">  <!--Style 1-->
-                        <h2 class="dart-heading">Contact US</h2>
-                        </div>
-                        
-                        <div class="contact-form"><!-- contact form -->
-                            <form class="row" action="https://www.multipurposethemes.com/html-templates/cosmeticagency/send_email.php" id="contact" name="contact" method="post" >
-                              <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Email Address" required >
-                              </div>
-                              <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Company Name" required >
-                              </div>
-                              <div class="form-group col-md-12">
-                                <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Company Address" >
-                              </div>
-                              <div class="form-group col-md-12">
-                                <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Mobile Number" >
-                              </div>
-                              <div class="form-group col-md-12">
-                                <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="Inquiry Box" required  ></textarea>
-                              </div>
-                              <div class="col-md-12">
-                              <button name="submit" type="submit" class="btn normal-btn dart-btn-xs">SEND MESSAGE</button>
-                              </div>
-                            </form>
-                        </div>
-                        
-                        <hr>
-                        
-
-                        
-					</div>
-                </div>                
-            </div>            
-        </div>
+            </div>
+            
+         </div>
+         
+           
+        </div>    	
     </section>            
                    
-  <footer class="footer">
+     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -321,7 +336,7 @@
                 </div>
             </div>
         </div>
-    </footer>      
+    </footer>    
        
                           
                                              
@@ -360,5 +375,5 @@
 
   </body>
 
-<!-- Mirrored from www.multipurposethemes.com/html-templates/cosmeticagency/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2017 13:17:50 GMT -->
+<!-- Mirrored from www.multipurposethemes.com/html-templates/cosmeticagency/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2017 13:17:50 GMT -->
 </html>

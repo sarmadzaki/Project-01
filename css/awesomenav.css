@@ -68,7 +68,7 @@ nav.navbar.awesomenav ul.nav li.active > a{
 }
 
 nav.navbar.awesomenav .navbar-toggle{
-    background-color: #ee2b63;
+    background-color: #25169D;
     border: none;
     padding: 5px 15px;
     font-size: 18px;
@@ -324,13 +324,13 @@ ul.cart-list > li.total > span{
 /* Top Search
 =================================*/
 .top-search{
-    background-color: #333;
+    background-color: #25169D;
     padding: 10px 0;
     display: none;
 }
 
 .top-search input.form-control{
-    background-color: transparent;
+    background-color: #25169D;
     border: none;
     -moz-box-shadow: 0px 0px 0px;
     -webkit-box-shadow: 0px 0px 0px;
@@ -376,7 +376,7 @@ body.on-side{
     padding: 25px 30px;
     height: 100%;
     display: block;
-    background-color: #333;
+    background-color: #25169D;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -415,13 +415,13 @@ body.on-side{
 }
 
 .side .widget ul.link li a{
-    color: #9f9f9f;
+    color: white;
     letter-spacing: 1px;
 }
 
 .side .widget ul.link li a:focus,
 .side .widget ul.link li a:hover{
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 

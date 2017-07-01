@@ -37,7 +37,7 @@ Primary use:	Cosmetic Agency Html Responsive Template
 # [Color codes]
 
 # Black (text): #1b1b1b
-# Blue : #ee2b63
+# Blue : #25169D
 
 ------------------------------------------------------------------*/
 
@@ -313,7 +313,7 @@ body {
 }
 
 a {
-	color: #ee2b63;
+	color: #25169D;
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
@@ -327,7 +327,7 @@ a {
 }
 a:hover,
 a:focus {
-	color: #ee2b63;
+	color: black;
 	outline: none;
 	outline-offset: 0px;
 	text-decoration:none !important;
@@ -349,7 +349,7 @@ p {
 }
 
 .pink{
-	color:#ee2b63;
+	color:#25169D;
 }
 .white{
 	color: #fff;
@@ -361,7 +361,7 @@ p {
 	color:#898989;
 }
 .bg-pink{
-	background-color:#ee2b63;
+	background-color:#25169D;
 }
 .light-gray{
 	background-color:#f7f7f7;
@@ -394,7 +394,7 @@ nav.navbar.awesomenav ul.dropdown-menu.megamenu-content .content ul.menu-col li 
     width: 100%;
     color: #fff;
     padding: 5px 0;
-	background-color: Blue ;
+	background-color: #25169D ;
 }
 .top-column-left, .top-column-right {
     float: left;
@@ -855,15 +855,15 @@ ul.contact-line li, ul.register li {
 	background: #fff;
 }
 .blogstyle-1 .blog-post-container .dart-title a:hover, .blogstyle-1 .blog-post-container .dart-title a:focus {
-	color: #ee2b63;
+	color: #25169D;
 	text-decoration:none;
 }
 .blogstyle-1 .blog-post-container .dart-footer .dart-meta a:hover, .blogstyle-1 .blog-post-container .dart-footer .dart-meta a:focus  {
-	color: #ee2b63;
+	color: #25169D;
 	text-decoration:none
 }
 .blogstyle-1 .blog-post-container .dart-header .dart-meta li a:hover, .blogstyle-1 .blog-post-container .dart-header .dart-meta li a:focus {
-	color: #ee2b63;
+	color: #25169D;
 	text-decoration:none;
 }
 @media (max-width : 991px) {
@@ -896,14 +896,14 @@ ul.contact-line li, ul.register li {
     margin: 0 auto;
 }
 .form-inline .newsletter .form-control {
-    border: 1px solid #ee2b63;
+    border: 1px solid #25169D;
     border-radius: 0;
     width: 280px;
 }
 .newsletter .btn-default {
-    border: 1px solid #ee2b63;
+    border: 1px solid #25169D;
     border-radius: 0;
-    background-color: #ee2b63;
+    background-color: #25169D;
     color: #fff;
 	-webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
@@ -911,9 +911,9 @@ ul.contact-line li, ul.register li {
     transition: all 500ms ease-in-out;
 }
 .newsletter .btn-default:hover {
-    border: 1px solid #ee2b63;
+    border: 1px solid #25169D;
     background-color: #fff;
-    color: #ee2b63;
+    color: #25169D;
 	-webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
@@ -955,7 +955,7 @@ ul.contact-line li, ul.register li {
 	color: #666;
 }
 .footer .social a:hover{
-	color: #ee2b63;
+	color: #25169D;
 }
 .footer .copy p {
    margin-bottom: 0;
@@ -966,7 +966,7 @@ ul.contact-line li, ul.register li {
     padding: 15px 0px;
 }
 .footer .copy p span {
-   color: #ee2b63;
+   color: #25169D;
 }
 
 @media only screen and (max-width: 991px) {
@@ -989,7 +989,7 @@ ul.contact-line li, ul.register li {
 	border-bottom: 1px solid #fff;
 	border-radius: 0px;
 	background-color: transparent;
-	color: #fff;
+	color: black;
 	height: 50px;
 }
 .contactus-one .contact-form .form-control {
@@ -1001,7 +1001,7 @@ ul.contact-line li, ul.register li {
 }
 .contactus-one .contact-info p i {
 	margin-right: 15px;
-	color: #ee2b63;
+	color: #25169D;
 }
 .map iframe {
 	pointer-events: none;
